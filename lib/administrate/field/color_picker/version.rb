@@ -1,6 +1,8 @@
+require "administrate/field/base"
+
 module Administrate
   module Field
-    module ColorPicker
+    class ColorPicker < Administrate::Field::Base
       VERSION = "0.1.0"
     end
   end
